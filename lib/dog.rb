@@ -17,9 +17,9 @@ end
 fido = Dog.new
 fido.name = "Fido"
 
-fido.name
+puts "#{fido.name}"
 # => "Fido"
 
-fido.bark
+puts "#{fido.bark}"
 # woof!
 # => nil
